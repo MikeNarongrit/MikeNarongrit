@@ -1,0 +1,41 @@
+@media only screen and (max-width: 768px) {
+    html{
+        background-color: #FDF2E9;
+    }
+    body{
+        font-family: 'Merriweather', serif;
+    }
+    .main{
+        border: none red;
+        margin: 0px 150px;
+    }
+    .top{
+        text-align: right;
+        padding-bottom: 11px;
+        height: 60px;
+        transition: 1s;
+    }
+    .top a :hover{
+        transform: scale(1);
+        background: #182f4b;
+        color: #FFF;
+    }
+    
+    .top a li{
+        display: flex;
+        padding: 30px;
+        padding-top: 20px;
+        text-decoration: none;
+        
+        
+    }
+    a{
+        text-decoration: underline;
+        text-decoration: none;
+        color: #000000;
+    }
+
+
+
+
+}
